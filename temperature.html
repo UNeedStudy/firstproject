@@ -1,0 +1,35 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>온도변환</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+  <!-- 코드 시작 -->
+  <h1>온도 변환 프로그램</h1>
+  <input type="text" id='inBox' autocomplete="off">
+  <select id="inSelect">
+    <option value="℃">℃</option>
+    <option value="℉">℉</option>
+    <option value="K">절대온도</option>
+  </select>
+
+  <span>=></span>
+
+  <select id="outSelect">
+    <option value="℃">℃</option>
+    <option value="℉">℉</option>
+    <option value="K">절대온도</option>
+  </select>
+  <input type="text" id='outBox' readonly='true' autocomplete="off">
+  <button id='goBtn'>변환</button>
+  <!-- 코드 끝 -->
+
+  <script src="temperaturescript.js"></script>
+</body>
+
+</html>

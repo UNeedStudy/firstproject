@@ -1,0 +1,20 @@
+body {
+    text-align: center;
+    background-color: lightyellow;
+  }
+  
+  input {
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+  }
+  select {
+    height: 30px;
+    font-size: 20px;
+  }
+  button {
+    width: 70px;
+    height: 40px;
+    font-size: 20px;
+    padding: 5px;
+  }

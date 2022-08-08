@@ -1,0 +1,45 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>길이변환</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+  <!-- 코드 시작 -->
+  <h1>길이 변환 프로그램</h1>
+  <input type="text" id='inBox' autocomplete="off">
+  <select id="inSelect">
+    <option value="mm">mm</option>
+    <option value="cm">cm</option>
+    <option value="m">m</option>
+    <option value="km">km</option>
+    <option value="inch">inch</option>
+    <option value="mile">mile</option>
+    <option value="yard">yd</option>
+    <option value="feet">ft</option>
+  </select>
+
+  <span>=></span>
+
+  <select id="outSelect">
+    <option value="mm">mm</option>
+    <option value="cm">cm</option>
+    <option value="m">m</option>
+    <option value="km">km</option>
+    <option value="inch">inch</option>
+    <option value="mile">mile</option>
+    <option value="yard">yd</option>
+    <option value="feet">ft</option>
+  </select>
+  <input type="text" id='outBox' readonly='true' autocomplete="off">
+  <button id='goBtn'>변환</button>
+  <!-- 코드 끝 -->
+
+  <script src="lengthscript.js"></script>
+</body>
+
+</html>
